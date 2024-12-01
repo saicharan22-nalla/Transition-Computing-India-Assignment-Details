@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    
+  }
+  
+  .App {
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 30px;
+  }
+  
+  /* Profile Card Styling */
+  .profile-card {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    background-color: #d9d9d9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px;
+  }
+  
+  .profile-info h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 20px 20px 20px;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #4C62921A;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .detail-item span {
+    font-size: 14px;
+  }
+  
+  .detail-item .highlight {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+ 
+  
+  .assign-agent,
+  .add-widget {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .assign-agent {
+    background: #007bff;
+    color: white;
+  }
+  
+  .add-widget {
+    background: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  .assign-agent:hover {
+    background: #0056b3;
+  }
+  
+  .add-widget:hover {
+    background: #e6f7ff;
+  }
+
+  .icon{
+    width: 20px;
+    height: 20px;
+    border: 1.5px;
+  }
+
+  .add-button{
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #4C629208;
+    padding: 20px 20px 20px;
+    border: 20px;
+    height: 36px;
+  }
+  .icon{
+    margin-right: 10px;
+    border: circle 0px #0A061A ;
+    padding: 2px;
+    
+  }

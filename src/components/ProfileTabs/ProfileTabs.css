@@ -1,0 +1,91 @@
+/* Container Styles */
+.profile-tabs-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9fafb;
+    border-bottom: 1px solid #e0e0e0;
+    gap: 15px;
+    overflow-x: auto;
+  }
+  
+  /* Profile Tabs */
+  .profile-tabs {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+    gap: 15px;
+  }
+  
+  .profile-tab {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 8px 12px 8px 12px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    margin-left: 10px;
+
+  }
+  
+  .profile-tab:hover {
+    border-color: #4a90e2;
+  }
+  
+  .profile-initials {
+    width: 32px;
+    height: 32px;
+    background-color: #e0e0e0;
+    color: #4C6292;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+  }
+  
+  .profile-name {
+    font-size: 15.75px;
+    color: #0f1729;
+    white-space: nowrap;
+    font-weight: 600;
+
+  }
+  
+  .notification-badge {
+    background-color: #ff3b30;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 12px;
+  }
+  
+  /* Messaging Button */
+  .messaging-button {
+    background-color:#0F8BFD;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    transition: background-color 0.3s ease;
+  }
+  
+  .messaging-button:hover {
+    background-color: #357abd;
+  }
+
+  .message{
+    font-size: 17px;
+    color: white;
+
+  }
+  
+  

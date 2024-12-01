@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  /* Chat Container */
+  /* Basic CSS styling for the conversation component */
+
+.conversation {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .conversation header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #0F8BFD;
+  }
+  
+  .conversation .tab {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .conversation .tab.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .conversation .message-list {
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .conversation .message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .conversation .message.sender {
+    flex-direction: row-reverse;
+  }
+  
+  .conversation .message-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .conversation .sender-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .conversation .sender-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1  5px;
+  }
+  
+  .conversation .message-content {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+  }
+  
+  .conversation .message-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  .conversation .channel-selection {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .conversation .channel-selection label {
+    margin-right: 10px;
+  }
+  
+  .conversation .input-area {
+    display: flex;
+  }
+  
+  .conversation .input-area textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .conversation .attachment-send {
+    display: flex;
+    align-items: center;
+  }
+  
+  .conversation .attachment-send button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .conversation .attachment-send .fa-paperclip {
+    margin-right: 5px;
+  }

@@ -1,0 +1,100 @@
+/* General Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafb;
+    padding: 10px 20px ;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    left: 295px;
+    
+  }
+  
+  /* Left Section: Title and Home Icon */
+  .header-left {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #4a4a4a;
+    padding: 10px;
+  }
+  
+  .home-icon {
+    font-size: 18px;
+    margin-right: 8px;
+    color: #4a90e2;
+  }
+  
+  /* Right Section: User Info, Badges, and Actions */
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .process-owner {
+    background-color: #f5a623;
+    color: #44486D;
+    font-weight: lighter;
+  }
+  
+  .admin {
+    background-color: #E553Bc;
+  }
+  
+  .user-name {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #4a4a4a;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .action-icon {
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: #4a4a4a;
+    margin-right: 10px;
+  }
+  
+  .logout-icon {
+    color: #d0021b;
+    transition: color 0.3s;
+    margin-right: 8px;
+  }
+  
+  .logout-icon:hover {
+    color: #f44336;
+   
+  }
+  
+  .heading{
+    color: #8A8EA6;
+    font: Inter;
+    font-weight: 500;
+    font-size: 17.5px;
+    
+
+  }
+  .logout{
+    Width:47px;
+Height:21px;
+margin-left: 10px;
+  }
